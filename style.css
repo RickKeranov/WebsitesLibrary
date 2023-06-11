@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(0, 86, 139);
+    background-color: #3f1690;
     color: white;
     font-family: sans-serif;
 }
 h1{
-    background-color: rgb( 18, 129, 170);
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 img{
+    margin: 2px;
     width: 100px;
-    border: solid 5px rgb(0, 48, 92);
+    border: solid 3px white;
     border-radius: 20px;
 }
 img:active{
@@ -18,4 +18,17 @@ img:active{
 }
 img:hover{
     transform: scale(1.1,1.1);
+}
+button{
+    margin-left: 1250px;
+    padding: 5px 2px 5px 2px;
+    font-weight: bold;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+    background-color: #3f1690
+}
+button:hover{
+    color: #3f1690;
+    background-color: white;
 }

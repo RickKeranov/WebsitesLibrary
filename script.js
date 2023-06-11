@@ -1,0 +1,3 @@
+functon reloadPage(){
+    location.reload()
+}
