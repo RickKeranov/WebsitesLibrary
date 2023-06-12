@@ -19,7 +19,7 @@ img:hover{
     transform: scale(1.1,1.1);
 }
 button{
-    margin: -px 0 50px 0;
+    margin: 0 0 50px 0;
     padding: 5px 2px 5px 2px;
     font-weight: bold;
     color: white;
@@ -31,4 +31,7 @@ button:hover{
     transition: 0.3s ease-in-out;
     color: #3f1690;
     background-color: white;
+}
+darkTheme{
+    background-color: black;
 }
