@@ -11,8 +11,10 @@ h1{
 img{
     margin: 2px;
     width: 100px;
+    height: 100px;
     border: solid 3px white;
     border-radius: 20px;
+    background-color: white;
 }
 img:hover{
     transition: 0.2s ease-in-out;
@@ -32,6 +34,13 @@ button:hover{
     color: #3f1690;
     background-color: white;
 }
-darkTheme{
-    background-color: black;
+h2:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #6937ce;
+}
+.buttonimg{
+    width: 15px;
+    height: 15px;
+    padding: -10px;
+    background-color: none;
 }
