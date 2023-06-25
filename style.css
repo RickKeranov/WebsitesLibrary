@@ -1,5 +1,5 @@
 body{
-    background-color: #3f1690;
+    background-color: RGB(10, 10, 10);
     color: white;
     font-family: sans-serif;
 }
@@ -27,20 +27,14 @@ button{
     color: white;
     border: solid white;
     border-radius: 20px;
-    background-color: #3f1690
+    background-color: RGB(250, 50, 50)
 }
 button:hover{
     transition: 0.3s ease-in-out;
-    color: #3f1690;
+    color: RGB(250, 50, 50);
     background-color: white;
 }
 h2:hover{
     transition: 0.2s ease-in-out;
-    background-color: #6937ce;
-}
-.buttonimg{
-    width: 15px;
-    height: 15px;
-    padding: -10px;
-    background-color: none;
+    background-color: RGB(255, 50, 50);
 }
