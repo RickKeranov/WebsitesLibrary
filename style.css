@@ -1,7 +1,14 @@
 body{
-    background-color: RGB(15, 15, 15);
+    background-color: RGB(20, 20, 20);
     color: white;
-    font-family: 'Belanosima', sans-serif;
+    font-family: sans-serif;
+    align-items: center;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb{
+  background-color: red;
 }
 h1{
     text-align: center;
@@ -20,12 +27,12 @@ img{
     background-color: white;
 }
 img:hover{
-    transition: 0.2s ease-in-out;
-    transform: scale(1.1,1.1);
+    transition: 0.2s ease;
+    transform: scale(1.1);
+    transform: matrix(55);
 }
 button{
-    margin: 0 0 50px 0;
-    padding: 5px 2px 5px 2px;
+    padding: 5px;
     font-weight: bold;
     color: white;
     border: solid white;
@@ -34,12 +41,12 @@ button{
 }
 button:hover{
     transition: 0.3s ease-in-out;
-    color: RGB(250, 50, 50);
+    color: RGB(250 50 50);
     background-color: white;
 }
 h2:hover{
     transition: 0.2s ease-in-out;
-    background-color: RGB(255, 50, 50);
+    background-color: RGB(255 50 50);
 }
 
 @media screen and (max-width: 768px) {
